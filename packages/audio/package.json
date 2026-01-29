@@ -1,0 +1,19 @@
+{
+  "name": "@voice-platform/audio",
+  "version": "1.0.0",
+  "description": "Realtime audio primitives and processing for AI Voice Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@voice-platform/types": "file:../types"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
